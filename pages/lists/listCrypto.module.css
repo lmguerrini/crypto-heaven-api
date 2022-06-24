@@ -1,0 +1,249 @@
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+
+    position: static;
+    left: 0%;
+    right: 51.24%;
+    top: 0%;
+    bottom: 0%;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+#button {
+    width: 138px;
+    height: 42px;
+    position: static;
+    left: 15.94%;
+    right: 15.94%;
+    top: 19.05%;
+    bottom: 19.05%;
+    margin-top: 353px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+}
+
+#fixGrid {
+    width: 688px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    padding-left: 72px;
+    margin-top: 40px;
+}
+
+#fixGridText {
+    width: 200px;
+    height: 40px;
+    position: static;
+    left: 10.47%;
+    right: 60.47%;
+    top: calc(50% - 40px / 2);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+    color: rgba(0, 0, 0, 0.5);
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.fixGridText3 {
+    flex-direction: row-reverse;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 688px;
+    height: 72px;
+    left: 376px;
+
+    background: #ffffff;
+
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.cardExpanded {
+    height: 144px;
+}
+.cardContent1 {
+    display: flex;
+    height: 72px;
+}
+
+#cardAvatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    left: 0%;
+    right: 28.57%;
+    top: 0%;
+    bottom: 0%;
+
+    border-radius: 64px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 16px;
+    padding: 16px;
+}
+
+#cardName {
+    position: static;
+    width: 200px;
+    height: 40px;
+    left: 10.47%;
+    right: 60.47%;
+    top: calc(50% - 40px / 2);
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#cardPrice {
+    position: static;
+    width: 200px;
+
+    height: 40px;
+    left: 39.53%;
+    right: 31.4%;
+    top: calc(50% - 40px / 2);
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.cardChange {
+    position: static;
+    width: 200px;
+
+    height: 40px;
+    left: 68.6%;
+    right: 2.33%;
+    top: calc(50% - 40px / 2);
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    letter-spacing: 0.15px;
+
+    color: #04b000;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.cardChangeNegative {
+    color: #f44336;
+}
+
+.cardContent2 {
+    display: flex;
+    align-items: center;
+    transform: translateY(-5px);
+    height: 20px;
+    margin-left: 65px;
+}
+#cardContent2Text {
+    position: static;
+    width: 200px;
+    height: 20px;
+    left: calc(50% - 200px / 2 - 172px);
+    top: calc(50% - 20px / 2);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+    color: rgba(0, 0, 0, 0.5);
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+}
+
+.cardContent3 {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-left: 65px;
+}
+#cardContent3Text {
+    position: static;
+    width: 200px;
+    height: 36px;
+    left: calc(50% - 200px / 2 - 172px);
+    top: calc(50% - 36px / 2);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+}

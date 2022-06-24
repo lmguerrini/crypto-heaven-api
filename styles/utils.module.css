@@ -1,0 +1,17 @@
+/* utility for typography and others that will be useful across multiple components. */
+
+.h1 {
+    width: 608px;
+    height: 113px;
+    margin: 0 416px;
+    position: absolute;
+    top: 160px;
+    bottom: 73.34%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    justify-content: center;
+    letter-spacing: -1.5px;
+}

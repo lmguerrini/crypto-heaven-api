@@ -1,0 +1,24 @@
+/* NB: can't be imported outside of pages/_app.js since it affects all elements on the page. */
+
+html {
+    background: #e5e5e5;
+    overflow-x: hidden;
+}
+
+main {
+    min-height: 100vh;
+    margin-bottom: -50px;
+    background: #e5e5e5;
+}
+main:after {
+    content: "";
+    display: block;
+    height: 50px;
+}
+
+footer {
+    left: 0;
+    padding-top: 15px;
+    height: 50px;
+    background: #ffffff;
+}
